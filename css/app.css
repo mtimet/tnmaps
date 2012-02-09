@@ -1,0 +1,25 @@
+body {
+  position: relative;
+  padding-top: 40px;
+}
+
+.search label {
+  font-size: 16px;
+  padding-right: 5px;
+}
+
+section {
+  padding-top: 30px;
+}
+
+path {
+  fill: rgb(209, 210, 213);
+  stroke-miterlimit: 4; 
+  stroke-dasharray: none; 
+  stroke-opacity: 1;
+  stroke: rgb(255, 255, 255);
+  stroke-width: 2px;
+  overflow: auto;
+}
+
+
