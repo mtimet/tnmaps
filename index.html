@@ -1,11 +1,84 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <script type="text/javascript" src="https://raw.github.com/mbostock/d3/master/d3.min.js"></script>
-        <script type="text/javascript" src="https://raw.github.com/mbostock/d3/master/d3.geo.min.js"></script>
-    </head>
+  <head>
+    <title>TNAC Maps</title>  
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+    <link rel="stylesheet" href="css/bootstrap-responsive.css"
+type="text/css"/>
+    <link rel="stylesheet" href="css/colorbrewer.css" type="text/css"/>
+    <link rel="stylesheet" href="css/app.css" type="text/css"/>
+  </head>
 
-    <body>
-        <script type="text/javascript" src="main.js"></script>
-    </body>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+	  <a class="brand" href="#">TNAC Maps</a>		    
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <section id="main">
+        <form class="form-horizontal search">
+        <fieldset>
+          <div class="control-group">
+            <label class="control-label" for="select-delegation">Select Delegation</label>
+            <div class="controls">
+              <select id="select-delegation">
+                <option value="tunis1">Tunis 1</option>
+                <option value="tunis2">Tunis 2</option>
+	        <option value="ariana">Ariana</option>
+	        <option value="benarous">Ben Arous</option>
+               <option value="nabeul1">Nabeul 1</option>
+                <option value="nabeul2">Nabeul 2</option>
+	        <option value="manubah">Manubah</option>
+	        <option value="zaghouane">Zaghouane</option>
+        	<option value="bizerte">Bizerte</option>
+		  
+        	<option value="beja">Beja</option>
+		<option value="jendouba">Jendouba</option>
+        	<option value="kef">Le Kef</option>
+		<option value="siliana">Siliana</option>
+
+                <option value="sousse">Sousse</option>
+                <option value="monastir">Monastir</option>
+		<option value="mahdia">Mahdia</option>
+                <option value="sfax1">Sfax 1</option>
+                <option value="sfax2">Sfax 2</option>
+
+                <option value="kairouan">Kairaouan</option>
+                <option value="kasserine">Kasserine</option>
+		<option value="sidibouzid">Sidi Bouzid</option>
+		  
+                <option value="gabes">Gabes</option>
+		<option value="medenine">Medenine</option>
+                <option value="tataouine">Tataouine</option>
+
+		<option value="gafsa">Gafsa</option>
+		<option value="tozeur">Tozeur</option>
+                <option value="kebili">Kebili</option>
+	      </select>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+        
+        <div class="row">
+	  <div id="map" class="span4 RdPu">
+	  </div>
+          
+        </div>
+      </section>
+      <hr>
+      <section id="details">
+      </section>
+  
+    </div>
+    
+    <script type="text/javascript" src="js/d3.js"></script>
+    <script type="text/javascript" src="js/d3.geo.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
 </html>
