@@ -20,7 +20,7 @@ d3.select("#select-delegation").on("change", function() {
 });
 
 function load_delegation(name) {
-d3.json("../geojson/" + name + ".geojson", function(json) {
+d3.json("geojson/" + name + ".geojson", function(json) {
 
 var proj = d3.geo.mercator().scale(1).translate([0, 0]),
     path = d3.geo.path().projection(proj);
