@@ -25,50 +25,112 @@ type="text/css"/>
           <div class="control-group">
             <label class="control-label" for="select-delegation">Select Delegation</label>
             <div class="controls">
-              <select id="select-delegation">
-                <option value="tunis1">Tunis 1</option>
-                <option value="tunis2">Tunis 2</option>
-	        <option value="ariana">Ariana</option>
-	        <option value="benarous">Ben Arous</option>
-               <option value="nabeul1">Nabeul 1</option>
-                <option value="nabeul2">Nabeul 2</option>
-	        <option value="manubah">Manubah</option>
-	        <option value="zaghouane">Zaghouane</option>
-        	<option value="bizerte">Bizerte</option>
-		  
-        	<option value="beja">Beja</option>
-		<option value="jendouba">Jendouba</option>
-        	<option value="kef">Le Kef</option>
-		<option value="siliana">Siliana</option>
-
-                <option value="sousse">Sousse</option>
-                <option value="monastir">Monastir</option>
-		<option value="mahdia">Mahdia</option>
-                <option value="sfax1">Sfax 1</option>
-                <option value="sfax2">Sfax 2</option>
-
-                <option value="kairouan">Kairaouan</option>
-                <option value="kasserine">Kasserine</option>
-		<option value="sidibouzid">Sidi Bouzid</option>
-		  
-                <option value="gabes">Gabes</option>
-		<option value="medenine">Medenine</option>
-                <option value="tataouine">Tataouine</option>
-
-		<option value="gafsa">Gafsa</option>
-		<option value="tozeur">Tozeur</option>
-                <option value="kebili">Kebili</option>
+              <select id="select-circonscription">
+		<optgroup label="Grand Tunis">
+                  <option value="tunis1" selected>Tunis 1</option>
+                  <option value="tunis2">Tunis 2</option>
+		  <option value="ariana">Ariana</option>
+		  <option value="benarous">Ben Arous</option>
+		  <option value="manubah">Manubah</option>
+		</optgroup>
+		<optgroup label="Nord Est">
+                  <option value="nabeul1">Nabeul 1</option>
+		  <option value="nabeul2">Nabeul 2</option>
+		  <option value="zaghouane">Zaghouane</option>
+		  <option value="bizerte">Bizerte</option>
+		</optgroup>
+		<optgroup label="Nord West">  
+        	  <option value="beja">Beja</option>
+		  <option value="jendouba">Jendouba</option>
+		  <option value="kef">Le Kef</option>
+		  <option value="siliana">Siliana</option>
+		</optgroup>
+		<optgroup label="Centre Est">
+                  <option value="sousse">Sousse</option>
+		  <option value="monastir">Monastir</option>
+		  <option value="mahdia">Mahdia</option>
+		  <option value="sfax1">Sfax 1</option>
+		  <option value="sfax2">Sfax 2</option>
+		</optgroup>
+		<optgroup label="Centre Ouest">
+                  <option value="kairouan">Kairaouan</option>
+		  <option value="kasserine">Kasserine</option>
+		  <option value="sidibouzid">Sidi Bouzid</option>
+		</optgroup>
+		<optgroup label="Sud Est">
+                  <option value="gabes">Gabes</option>
+		  <option value="medenine">Medenine</option>
+		  <option value="tataouine">Tataouine</option>
+		</optgroup>
+		<optgroup label="Sud Ouest">
+		  <option value="gafsa">Gafsa</option>
+		  <option value="tozeur">Tozeur</option>
+		  <option value="kebili">Kebili</option>
+		</optgroup>
+		<optgroup label="ALL">  
+		  <option value="delegations">All Delegations</option>
+		</optgroup>
 	      </select>
             </div>
           </div>
         </fieldset>
       </form>
         
-        <div class="row">
-	  <div id="map" class="span4 RdPu">
+        <div class="row-fluid">
+	  <div id="map-delegations" class="span4 hero-unit">
 	  </div>
-          
-        </div>
+	  <div id="info-box" class="span6">
+	    <h2 id="info-title"></h2>
+	    <table id="info-table" class="table">
+	      <thead>
+		<tr>
+		  <th>Code Delegation</th>
+		  <th>Arabic Name</th>
+		  <th>French Name</th>
+		</tr>
+		</thead>
+	      <tbody>
+	      </tbody>
+	    </table>
+	  </div>
+	</div>
+	  
+        <form class="form-horizontal">
+          <fieldset>
+            <div class="control-group">
+              <label class="control-label" for="select-color">Color</label>
+              <div class="controls">
+		<select id="select-color">
+		    <option value="YlGn">YlGn</option>
+		    <option value="YlGnBu">YlGnBu</option>
+		    <option value="GnBu">GnBu</option>
+		    <option value="BuGn">BuGn</option>
+		    <option value="PuBuGn">PuBuGn</option>
+		    <option value="PuBu">PuBu</option>
+		    <option value="BuPu">BuPu</option>
+		    <option value="RdPu" selected>RdPu</option>
+		    <option value="PuRd">PuRd</option>
+		    <option value="OrRd">OrRd</option>
+		    <option value="YlOrRd">YlOrRd</option>
+		    <option value="YlOrBr">YlOrBr</option>
+		    <option value="Purples">Purples</option>
+		    <option value="Blues">Blues</option>
+		    <option value="Greens">Greens</option>
+		    <option value="Oranges">Oranges</option>
+		    <option value="Reds">Reds</option>
+		    <option value="Greys">Greys</option>
+		</select>
+	      </div>
+	      <div class="controls">
+		<label class="checkbox">
+                <input type="checkbox" id="add-labels">
+		  Display Delegation Names
+		</label>
+	      </div>
+            </div>
+          </fieldset>
+        </form>
+	    
       </section>
       <hr>
       <section id="details">
@@ -78,6 +140,7 @@ type="text/css"/>
     
     <script type="text/javascript" src="js/d3.min.js"></script>
     <script type="text/javascript" src="js/d3.geo.min.js"></script>
+    <script type="text/javascript" src="js/d3.geom.min.js"></script>
     <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
   </body>
