@@ -133,7 +133,13 @@ function updateInfoBox() {
 	    .enter()
 	    .append("tr")
 	    .sort(function(a,b) {
-		return parseInt(a.properties.code_deleg) - parseInt(b.properties.code_deleg);
+		if (!a.properties.code_deleg){ 
+		    return -1;
+		} else if (!b.properties.code_deleg){ 
+		    return 1;
+		} else {
+		    return parseInt(a.properties.code_deleg) - parseInt(b.properties.code_deleg);
+		}
 	    });
 	var td = tr.selectAll("td")
 	    .data(function(d) { return [d.properties.code_deleg, d.properties.name_deleg, d.properties.name_2]; })
@@ -143,7 +149,7 @@ function updateInfoBox() {
 }
 
 function quantize(d) {
-    return d.properties.code_deleg ? "q" + (d.properties.code_deleg % 10) + "-9" : "unidentified";
+    return d.properties.code_deleg ? "q" + (d.properties.code_deleg % 10 % 9) + "-9" : "unidentified";
 }
 
 

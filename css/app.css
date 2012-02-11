@@ -6,6 +6,9 @@ body {
 .search label {
   font-size: 16px;
   padding-right: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  text-rendering: optimizelegibility;
 }
 
 section {
