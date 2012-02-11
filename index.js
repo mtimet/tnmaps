@@ -2,7 +2,7 @@
 
 
 var width = $("#map-circonscriptions").width();
-var height = width * 2;
+var height = width * 2.3;
 
 var circonscriptionsSVG = d3.select("#map-circonscriptions")
     .append("svg:svg")
@@ -154,7 +154,7 @@ function mouseover(d, i) {
         .duration(100)
         .ease("bounce")
         .style("fill",newColor)
-        .style("stroke-width", "4px");
+        .style("stroke-width", "1px");
 }
 
 function mouseout(d, i) {
