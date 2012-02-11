@@ -189,7 +189,8 @@ function mouseover(d, i) {
             .duration(100)
             .ease("bounce")
             .style("fill",newColor)
-            .style("stroke-width", "4px")
+            .style("stroke-width", "2px")
+
     }
 }
 
