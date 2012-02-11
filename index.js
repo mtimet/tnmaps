@@ -105,29 +105,24 @@ function updateLabels(svg, json, path) {
 }
 
 function updateInfoBox() {
-    d3.select("#info-title")
-	.text(_data.features[0].properties.name_1);
     var table = d3.select("#info-table").select("tbody");
     table.selectAll("tr").remove();
 
-    if (false && selectedDelegation){
-	table.selectAll("tr")
-	    .data(_selectedFeature.properties)
-            .append("tr")
-            .text(function(d){return d });
-    } else {
-	var counter = 1;
-        var tr = table.selectAll("tr")
-	    .data(_data.features, function (d) {
-		return d.properties.name_1;
-            })
-	    .enter()
-	    .append("tr")
-	var td = tr.selectAll("td")
-	    .data(function(d) { return [d.properties.code_circo, d.properties.name_circo, d.properties.name_1]; })
-	    .enter().append("td")
-	    .text(function(d) {return d; });
-    }
+    var counter = 1;
+    var tr = table.selectAll("tr")
+	.data(_data.features, function (d) {
+	    return d.properties.name_1;
+        })
+	.enter()
+	.append("tr")
+        .sort(function(a,b) {
+	    return parseInt(a.properties.code_circo) - parseInt(b.properties.code_circo);
+	} );
+
+    var td = tr.selectAll("td")
+	.data(function(d) { return [d.properties.code_circo, d.properties.name_circo, d.properties.name_1]; })
+	.enter().append("td")
+	.text(function(d) {return d; });
 }
 
 function quantize(d) {

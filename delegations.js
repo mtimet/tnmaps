@@ -132,6 +132,9 @@ function updateInfoBox() {
             })
 	    .enter()
 	    .append("tr")
+	    .sort(function(a,b) {
+		return parseInt(a.properties.code_deleg) - parseInt(b.properties.code_deleg);
+	    });
 	var td = tr.selectAll("td")
 	    .data(function(d) { return [d.properties.code_deleg, d.properties.name_deleg, d.properties.name_2]; })
 	    .enter().append("td")
