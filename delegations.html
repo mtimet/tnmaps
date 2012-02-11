@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TNAC Elections Circonscriptions</title>  
+    <title>TNAC Maps</title>  
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
     <link rel="stylesheet" href="css/bootstrap-responsive.css"
 type="text/css"/>
     <link rel="stylesheet" href="css/colorbrewer.css" type="text/css"/>
     <link rel="stylesheet" href="css/app.css" type="text/css"/>
-    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+    <link rel="stylesheet" href="css/delegations.css" type="text/css"/>
   </head>
 
   <body>
@@ -17,24 +17,79 @@ type="text/css"/>
 	  <a class="brand" href="./index.html">TNAC Maps</a>
 	  <div class="nav-collapse">
 	    <ul class="nav">
-	    
-	      <li class="active">
+	      <li>
 	        <a class="brand" href="./index.html">Overview</a>
 	      </li>
-	      <li>
+	      <li class="active">
 	        <a class="brand" href="./delegations.html">Delegations</a>
 	      </li>
+	      
+	      
 	    </ul>
 	  </div>
         </div>
       </div>
-    </div>
-    
+    </div>    
     <div class="container">
       <section id="main">
-       
+        <form class="form-horizontal search">
+        <fieldset>
+          <div class="control-group">
+            <label class="control-label" for="select-delegation">Select Delegation</label>
+            <div class="controls">
+              <select id="select-circonscription">
+		<optgroup label="Grand Tunis">
+                  <option value="tunis1" selected>Tunis 1</option>
+                  <option value="tunis2">Tunis 2</option>
+		  <option value="ariana">Ariana</option>
+		  <option value="benarous">Ben Arous</option>
+		  <option value="manubah">Manubah</option>
+		</optgroup>
+		<optgroup label="Nord Est">
+                  <option value="nabeul1">Nabeul 1</option>
+		  <option value="nabeul2">Nabeul 2</option>
+		  <option value="zaghouane">Zaghouane</option>
+		  <option value="bizerte">Bizerte</option>
+		</optgroup>
+		<optgroup label="Nord West">  
+        	  <option value="beja">Beja</option>
+		  <option value="jendouba">Jendouba</option>
+		  <option value="kef">Le Kef</option>
+		  <option value="siliana">Siliana</option>
+		</optgroup>
+		<optgroup label="Centre Est">
+                  <option value="sousse">Sousse</option>
+		  <option value="monastir">Monastir</option>
+		  <option value="mahdia">Mahdia</option>
+		  <option value="sfax1">Sfax 1</option>
+		  <option value="sfax2">Sfax 2</option>
+		</optgroup>
+		<optgroup label="Centre Ouest">
+                  <option value="kairouan">Kairaouan</option>
+		  <option value="kasserine">Kasserine</option>
+		  <option value="sidibouzid">Sidi Bouzid</option>
+		</optgroup>
+		<optgroup label="Sud Est">
+                  <option value="gabes">Gabes</option>
+		  <option value="medenine">Medenine</option>
+		  <option value="tataouine">Tataouine</option>
+		</optgroup>
+		<optgroup label="Sud Ouest">
+		  <option value="gafsa">Gafsa</option>
+		  <option value="tozeur">Tozeur</option>
+		  <option value="kebili">Kebili</option>
+		</optgroup>
+		<optgroup label="ALL">  
+		  <option value="delegations">All Delegations</option>
+		</optgroup>
+	      </select>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+        
         <div class="row-fluid">
-	  <div id="map-circonscriptions" class="span4 hero-unit">
+	  <div id="map-delegations" class="span4 hero-unit">
 	  </div>
 	  <div id="info-box" class="span6">
 	    <h2 id="info-title"></h2>
@@ -81,7 +136,7 @@ type="text/css"/>
 	      <div class="controls">
 		<label class="checkbox">
                 <input type="checkbox" id="add-labels">
-		  Display Delegation Names
+		  Display Names
 		</label>
 	      </div>
             </div>
@@ -99,6 +154,6 @@ type="text/css"/>
     <script type="text/javascript" src="js/d3.geo.min.js"></script>
     <script type="text/javascript" src="js/d3.geom.min.js"></script>
     <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="delegations.js"></script>
   </body>
 </html>
