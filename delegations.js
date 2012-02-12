@@ -179,28 +179,3 @@ function click(d, i) {
     updateInfoBox()
 */
 }
-
-function mouseover(d, i) {
-    if (_selectedDelegation == null) {
-	var oldColor = d3.select(this).style("fill");
-	var newColor = d3.hsl(oldColor).darker().toString();
-	d3.select(this)
-            .transition()
-            .duration(100)
-            .ease("bounce")
-            .style("fill",newColor)
-            .style("stroke-width", "2px")
-
-    }
-}
-
-function mouseout(d, i) {
-    if (_selectedDelegation == null) {
-	d3.select(this)
-            .transition()
-            .duration(100)
-            .ease("bounce")
-            .style("fill",null)
-            .style("stroke-width", null)
-    }
-}
