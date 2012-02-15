@@ -21,6 +21,33 @@ d3.select("#add-labels").on("change", function() {
     load(circonscriptionsMap, width, height);
 });
 
+d3.csv("data/deputy_data.csv", function (csv) {
+    var table = d3.select("#deputy-table");
+    table
+	.select("thead")
+        .append("tr")
+        .selectAll("th")
+        .data(d3.keys(csv[0]))
+        .enter()
+        .append("th")
+        .text(function (d) {return d});
+
+    table
+        .select("tbody")
+        .selectAll("tr")
+        .data(csv)
+        .enter()
+        .append("tr")
+        .filter(function(d){return d['Party Name']=='Mouvement Ennahda';})
+        .selectAll("td")
+        .data(function(d){return d3.entries(d);})
+        .enter()
+        .append("td")
+        .text(function(d) {return d.value;});
+	 
+    
+})
+
 load(circonscriptionsMap, width, height);
 
 function load(svg, width, height) {
