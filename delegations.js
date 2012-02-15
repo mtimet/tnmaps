@@ -4,13 +4,13 @@
 var width = $("#map-delegations").width();
 var height = width * 3 / 4;
 
-var delegationsSVG = d3.select("#map-delegations")
+var svg = d3.select("#map-delegations")
     .append("svg:svg")
     .attr("class", "RdPu")
     .attr("height", height)
     .attr("width", width);
 
-var delegationsMap = delegationsSVG.append("svg:g");
+var delegationsMap = svg.append("svg:g");
 var _selectedCirconscription = $("#select-circonscription").val();
 var _addLabels = $("#add-labels").is(":checked");
 var _selectedDelegation = null;
@@ -30,6 +30,8 @@ d3.select("#add-labels").on("change", function() {
     _addLabels = this.checked;
     update(delegationsMap, width, height);
 });
+
+d3.select("#download-svg").on("click", downloadSVG);
 
 update(delegationsMap, width, height);
 

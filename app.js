@@ -17,3 +17,11 @@ function mouseout(d, i) {
         .style("fill",null)
         .style("stroke-width", null);
 }
+
+
+function downloadSVG() {
+  d3.select(this).attr("href", "data:image/svg+xml;charset=utf-8;base64," + btoa(unescape(encodeURIComponent(
+    svg.attr("version", "1.1")
+       .attr("xmlns", "http://www.w3.org/2000/svg")
+     .node().parentNode.innerHTML))));
+}
