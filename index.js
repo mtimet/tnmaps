@@ -1,3 +1,5 @@
+
+
 var width = $("#map-circonscriptions").width();
 var height = width * 2.3;
 
@@ -9,8 +11,6 @@ var svg = d3.select("#map-circonscriptions")
 
 var circonscriptionsMap = svg.append("svg:g");
 var _addLabels = $("#add-labels").is(":checked");
-var _data = null;
-
 
 d3.select("#select-color").on("change", function() {
     d3.selectAll("svg").attr("class", this.value);
@@ -52,11 +52,10 @@ load(circonscriptionsMap, width, height);
 
 function load(svg, width, height) {
     d3.json("data/geojson/circonscriptions.json", function(json) {
-        _data = json;
 	var path = getProjectionPath(json, width, height);
 	updateMap(svg, json, path);
 	updateLabels(svg, json, path);
-	updateInfoBox();
+	updateInfoBox(json);
     })
 };
 
@@ -95,15 +94,15 @@ function updateMap(svg, json, path) {
         .attr("circonscription-ar", function(d) {return d.properties.name_circo})
         .attr("circonscription-fr", function(d) {return d.properties.name_1})
         .attr("circonscription-code", function(d) {return d.properties.code_circo})
-        .on("click", click)
-        .on("mouseover", mouseover)
-        .on("mouseout", mouseout);
+        .on("mouseover", mouseover("code_circo"))
+        .on("mouseout", mouseout("code_circo"));
     
     features
         .append("svg:title")
         .text(function(d) {return d.properties.name_1;});
     
-    features.exit().remove();     
+    features.exit().remove();    
+    $("path").tipsy({gravity:'w'}); 
 }
 function updateLabels(svg, json, path) {
     if (_addLabels){
@@ -128,13 +127,13 @@ function updateLabels(svg, json, path) {
     }
 }
 
-function updateInfoBox() {
+function updateInfoBox(json) {
     var table = d3.select("#info-table").select("tbody");
     table.selectAll("tr").remove();
 
     var counter = 1;
     var tr = table.selectAll("tr")
-	.data(_data.features, function (d) {
+	.data(json.features, function (d) {
 	    return d.properties.name_1;
         })
 	.enter()
@@ -142,8 +141,8 @@ function updateInfoBox() {
         .sort(function(a,b) {
 	    return parseInt(a.properties.code_circo) - parseInt(b.properties.code_circo);
 	} )
-	.on("mouseover", mouseover3)
-	.on("mouseout", mouseout3);
+	.on("mouseover", mouseover("code_circo"))
+	.on("mouseout", mouseout("code_circo"));
 
     var td = tr.selectAll("td")
 	.data(function(d) { return [d.properties.code_circo, d.properties.name_circo, d.properties.name_1]; })
@@ -168,7 +167,4 @@ function quantize(d) {
     return "q" + q + "-9";
 }
 
-
-function click(d, i) {
-}
 

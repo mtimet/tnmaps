@@ -13,9 +13,8 @@ var svg = d3.select("#map-delegations")
 var delegationsMap = svg.append("svg:g");
 var _selectedCirconscription = $("#select-circonscription").val();
 var _addLabels = $("#add-labels").is(":checked");
-var _selectedDelegation = null;
-var _selectedFeature = null;
-var _data = null;
+
+
 
 d3.select("#select-circonscription").on("change", function() {
     _selectedCirconscription = this.value;
@@ -41,7 +40,7 @@ function update(svg, width, height) {
 	var path = getProjectionPath(json, width, height);
 	updateMap(svg, json, path);
 	updateLabels(svg, json, path);
-	updateInfoBox();
+	updateInfoBox(json);
     })
 };
 
@@ -82,15 +81,15 @@ function updateMap(svg, json, path) {
         .attr("circonscription-ar", function(d) {return d.properties.name_circo})
         .attr("circonscription-fr", function(d) {return d.properties.name_1})
         .attr("circonscription-code", function(d) {return d.properties.code_circo})
-        .on("click", click)
-        .on("mouseover", mouseover)
-        .on("mouseout", mouseout);
+        .on("mouseover", mouseover("code_deleg"))
+        .on("mouseout", mouseout("code_deleg"));
     
     features
         .append("svg:title")
         .text(function(d) {return d.properties.name_2;});
     
-    features.exit().remove();     
+    features.exit().remove(); 
+    $("path").tipsy({gravity:'w'});
 }
 function updateLabels(svg, json, path) {
     if (_addLabels){
@@ -115,71 +114,39 @@ function updateLabels(svg, json, path) {
     }
 }
 
-function updateInfoBox() {
+function updateInfoBox(json) {
     d3.select("#info-title")
-	.text(_data.features[0].properties.name_1);
+	.text(json.features[0].properties.name_1);
     var table = d3.select("#info-table").select("tbody");
     table.selectAll("tr").remove();
 
-    if (false && selectedDelegation){
-	table.selectAll("tr")
-	    .data(_selectedFeature.properties)
-            .append("tr")
-            .text(function(d){return d });
-    } else {
-	var counter = 1;
-        var tr = table.selectAll("tr")
-	    .data(_data.features, function (d) {
-		return d.properties.name_1 + " " + d.properties.name_2;
-            })
-	    .enter()
-	    .append("tr")
-	    .sort(function(a,b) {
-		if (!a.properties.code_deleg){ 
-		    return -1;
-		} else if (!b.properties.code_deleg){ 
-		    return 1;
-		} else {
-		    return parseInt(a.properties.code_deleg) - parseInt(b.properties.code_deleg);
-		}
-	    })
-	    .on("mouseover", mouseover2)
-	    .on("mouseout", mouseout2);
-	var td = tr.selectAll("td")
-	    .data(function(d) { return [d.properties.code_deleg, d.properties.name_deleg, d.properties.name_2]; })
-	    .enter().append("td")
-	    .text(function(d) {return d; });
-    }
+    
+    var counter = 1;
+    var tr = table.selectAll("tr")
+	.data(json.features, function (d) {
+	    return d.properties.name_1 + " " + d.properties.name_2;
+        })
+	.enter()
+	.append("tr")
+	.sort(function(a,b) {
+	    if (!a.properties.code_deleg){ 
+		return -1;
+	    } else if (!b.properties.code_deleg){ 
+		return 1;
+	    } else {
+		return parseInt(a.properties.code_deleg) - parseInt(b.properties.code_deleg);
+	    }
+	})
+	.on("mouseover", mouseover("code_deleg"))
+	.on("mouseout", mouseout("code_deleg"));
+    var td = tr.selectAll("td")
+	.data(function(d) { return [d.properties.code_deleg, d.properties.name_deleg, d.properties.name_2]; })
+	.enter().append("td")
+	.text(function(d) {return d; });
+
 }
 
 function quantize(d) {
     return d.properties.code_deleg ? "q" + (d.properties.code_deleg % 10 % 9) + "-9" : "unidentified";
 }
 
-
-function click(d, i) {
-/*
-    var previousDelegation = _selectedDelegation;
-    var previousFeature = _selectedFeature;
-    _selectedDelegation = (_selectedDelegation != null && _selectedDelegation == d.properties.name_2) ? null : d.properties.name_2;
-    
-    if (previousDelegation && previousFeature){
-	d3.select(previousFeature)
-            .transition()
-            .duration(100)
-            .ease("bounce")
-            .style("fill",null)
-            .style("stroke-width", null)
-    }
-    if (_selectedDelegation) {
-	_selectedFeature = this;
-	d3.select(_selectedFeature)
-            .transition()
-            .duration(100)
-            .ease("bounce")
-            .style("fill","#FF0000")
-            .style("stroke-width", "4px")
-    }
-    updateInfoBox()
-*/
-}
