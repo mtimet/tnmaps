@@ -18,6 +18,29 @@ function mouseout(d, i) {
         .style("stroke-width", null);
 }
 
+function mouseover2(d, i) {
+    svg.selectAll("path")
+	.filter(function(f){return f.properties.code_deleg == d.properties.code_deleg})
+        .each(mouseover);
+}
+
+function mouseout2(d, i) {
+    svg.selectAll("path")
+	.filter(function(f){return f.properties.code_deleg == d.properties.code_deleg})
+        .each(mouseout);
+}
+
+function mouseover3(d, i) {
+    svg.selectAll("path")
+	.filter(function(f){return f.properties.code_circo == d.properties.code_circo})
+        .each(mouseover);
+}
+
+function mouseout3(d, i) {
+    svg.selectAll("path")
+	.filter(function(f){return f.properties.code_circo == d.properties.code_circo})
+        .each(mouseout);
+}
 
 function downloadSVG() {
   d3.select(this).attr("href", "data:image/svg+xml;charset=utf-8;base64," + btoa(unescape(encodeURIComponent(

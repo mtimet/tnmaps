@@ -1,13 +1,13 @@
 var width = $("#map-circonscriptions").width();
 var height = width * 2.3;
 
-var circonscriptionsSVG = d3.select("#map-circonscriptions")
+var svg = d3.select("#map-circonscriptions")
     .append("svg:svg")
     .attr("class", "RdPu")
     .attr("height", height)
     .attr("width", width);
 
-var circonscriptionsMap = circonscriptionsSVG.append("svg:g");
+var circonscriptionsMap = svg.append("svg:g");
 var _addLabels = $("#add-labels").is(":checked");
 var _data = null;
 
@@ -141,7 +141,9 @@ function updateInfoBox() {
 	.append("tr")
         .sort(function(a,b) {
 	    return parseInt(a.properties.code_circo) - parseInt(b.properties.code_circo);
-	} );
+	} )
+	.on("mouseover", mouseover3)
+	.on("mouseout", mouseout3);
 
     var td = tr.selectAll("td")
 	.data(function(d) { return [d.properties.code_circo, d.properties.name_circo, d.properties.name_1]; })

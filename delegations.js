@@ -142,7 +142,9 @@ function updateInfoBox() {
 		} else {
 		    return parseInt(a.properties.code_deleg) - parseInt(b.properties.code_deleg);
 		}
-	    });
+	    })
+	    .on("mouseover", mouseover2)
+	    .on("mouseout", mouseout2);
 	var td = tr.selectAll("td")
 	    .data(function(d) { return [d.properties.code_deleg, d.properties.name_deleg, d.properties.name_2]; })
 	    .enter().append("td")
