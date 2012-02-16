@@ -51,7 +51,7 @@ d3.csv("data/deputy_data.csv", function (csv) {
 load(circonscriptionsMap, width, height);
 
 function load(svg, width, height) {
-    d3.json("geojson/circonscriptions.geojson", function(json) {
+    d3.json("data/geojson/circonscriptions.json", function(json) {
         _data = json;
 	var path = getProjectionPath(json, width, height);
 	updateMap(svg, json, path);

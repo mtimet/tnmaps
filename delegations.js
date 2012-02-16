@@ -36,7 +36,7 @@ d3.select("#download-svg").on("click", downloadSVG);
 update(delegationsMap, width, height);
 
 function update(svg, width, height) {
-    d3.json("geojson/" + _selectedCirconscription + ".geojson", function(json) {
+    d3.json("data/geojson/" + _selectedCirconscription + ".json", function(json) {
         _data = json;
 	var path = getProjectionPath(json, width, height);
 	updateMap(svg, json, path);
