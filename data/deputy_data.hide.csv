@@ -1,0 +1,218 @@
+Deputy id,Party Name,Party Short Name,Party id,Party Short Name, Party Name,Deputy Fullname,Deputy Surname,Deputy Firstname,Circonscription,Circonscription,Circonscription id,Territory,Territory
+DEP001,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,محمد الحبيب بن العدل نصر مرزوقي,مرزوقي,محمد الحبيب,تونس 1,Tunis 1,111,تونس,Tunisie
+DEP002,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,يمينة بنت محمد الزغلامي,الزغلامي,يمينة,تونس 1,Tunis 1,111,تونس,Tunisie
+DEP003,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,كريم بن عمر الهاروني,الهاروني,كريم,تونس 1,Tunis 1,111,تونس,Tunisie
+DEP004,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,هاجر بنت منصور عزيز,عزيز,هاجر,تونس 1,Tunis 1,111,تونس,Tunisie
+DEP005,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,مصطفى بن محمد بن جعفر,بن جعفر,مصطفى,تونس 1,Tunis 1,111,تونس,Tunisie
+DEP006,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,سمير بن علي بن عمر,بن عمر,سمير,تونس 1,Tunis 1,111,تونس,Tunisie
+DEP007,Parti Démocrate Progressiste,PDP,137,الحزب الديمقراطي التقدمي,الحزب الديمقراطي التقدمي,محمد المنصف بن الحبيب شيخ روحه,شيخ روحه,محمد المنصف,تونس 1,Tunis 1,111,تونس,Tunisie
+DEP008,Pôle Démocratique Moderniste,PDM,259,القطب,القطب الديمقراطي الحداثي,سمير بن منوبي الطيب,الطيب,سمير,تونس 1,Tunis 1,111,تونس,Tunisie
+DEP009,Parti de la Lutte Progressiste,PLP,455,حزب النضال التقدمي,حزب النضال التقدمي,هشام بن جعفر حسني,حسني,هشام,تونس 1,Tunis 1,111,تونس,Tunisie
+DEP010,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,سعاد بنت محمد الطاهر بن عبد الرحيم,بن عبد الرحيم,سعاد,تونس 2 ,Tunis 2,112,تونس,Tunisie
+DEP011,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,زياد بن مصطفى الدولاتي,الدولاتي,زياد,تونس 2 ,Tunis 2,112,تونس,Tunisie
+DEP012,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,حليمة بنت الشاذلي القني,القني,حليمة,تونس 2 ,Tunis 2,112,تونس,Tunisie
+DEP013,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,خليل منصف بن مصطفى الزاوية,الزاوية,خليل منصف,تونس 2 ,Tunis 2,112,تونس,Tunisie
+DEP014,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,لبنى بنت فتوح الجريبي,الجريبي,لبنى,تونس 2 ,Tunis 2,112,تونس,Tunisie
+DEP015,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,العربي بن صالح عبيد,عبيد,عربي,تونس 2 ,Tunis 2,112,تونس,Tunisie
+DEP016,Pôle Démocratique Moderniste,PDM,259,القطب,القطب الديمقراطي الحداثي,أحمد بن مسعود إبراهيم,إبراهيم,أحمد,تونس 2 ,Tunis 2,112,تونس,Tunisie
+DEP017,Parti Démocrate Progressiste,PDP,137,الحزب الديمقراطي التقدمي,الحزب الديمقراطي التقدمي,أحمد نجيب بن عبد العزيز الشابي,الشابي,أحمد نجيب,تونس 2 ,Tunis 2,112,تونس,Tunisie
+DEP018,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,الصحبي بن مسعود العتيق,العتيق,صحبي,أريانة,Ariana,120,تونس,Tunisie
+DEP019,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,آمال بنت محمد الصالح غويل,غويل,آمال,أريانة,Ariana,120,تونس,Tunisie
+DEP020,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,الفرجاني بن مبروك الدغمان,الدغمان,فرجاني,أريانة,Ariana,120,تونس,Tunisie
+DEP021,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,المولدي بن الهادي الرياحي,الرياحي,مولدي,أريانة,Ariana,120,تونس,Tunisie
+DEP022,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,عبد العزيز بن الحبيب القطي,القطي,عبد العزيز,أريانة,Ariana,120,تونس,Tunisie
+DEP023,Pôle Démocratique Moderniste,PDM,259,القطب,القطب الديمقراطي الحداثي,محمد العربي فاضل بن محمد فريد موسى,موسى,محمد العربي فاضل,أريانة,Ariana,120,تونس,Tunisie
+DEP024,Parti Démocrate Progressiste,PDP,137,الحزب الديمقراطي التقدمي,الحزب الديمقراطي التقدمي,عصام بن عبد العزيز الشابي,الشابي,عصام,أريانة,Ariana,120,تونس,Tunisie
+DEP025,Parti Libéral Maghrébin,PLM,444,الحزب الليبرالي المغاربي,الحزب الليبرالي المغاربي,كريم بن محمد البصيري بوعبدلي,بوعبدلي,كريم,أريانة,Ariana,120,تونس,Tunisie
+DEP026,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,نور الدين بن عبد الله البحيري,البحيري,نور الدين,بن عروس,Ben Arous,130,تونس,Tunisie
+DEP027,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,هالة بنت إبراهيم الحامي,الحامي,هالة,بن عروس,Ben Arous,130,تونس,Tunisie
+DEP028,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,الصادق بن حمزة شورو,شورو,صادق,بن عروس,Ben Arous,130,تونس,Tunisie
+DEP029,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,سلمى بنت عبد المجيد صرصوط,صرصوط,سلمى,بن عروس,Ben Arous,130,تونس,Tunisie
+DEP030,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,خميس بن محمد قسيلة,قسيلة,خميس,بن عروس,Ben Arous,130,تونس,Tunisie
+DEP031,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,سلمى هادية بنت رضا مبروك,مبروك,سلمى هادية,بن عروس,Ben Arous,130,تونس,Tunisie
+DEP032,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,هيثم بن مبروك بلقاسم,بلقاسم,هيثم,بن عروس,Ben Arous,130,تونس,Tunisie
+DEP033,Parti Démocrate Progressiste,PDP,137,الحزب الديمقراطي التقدمي,الحزب الديمقراطي التقدمي,مية بنت محمد الجريبي,الجريبي,مية,بن عروس,Ben Arous,130,تونس,Tunisie
+DEP034,Pôle Démocratique Moderniste,PDM,259,القطب,القطب الديمقراطي الحداثي,سلمى بنت حسن بكار,بكار,سلمى,بن عروس,Ben Arous,130,تونس,Tunisie
+DEP035,Parti Démocratique et Social de la Nation,PDSN,413,حزب الأمة,حزب الأمة الديمقراطي الاجتماعي,محمد نزار بن محمد قاسم,قاسم,محمد نزار,بن عروس,Ben Arous,130,تونس,Tunisie
+DEP036,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,عبد الباسط بن مصطفى بن الشيخ,بن الشيخ,عبد الباسط,منوبة,Manouba,140,تونس,Tunisie
+DEP037,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,لطيفة بنت عبيد حباشي,حباشي,لطيفة,منوبة,Manouba,140,تونس,Tunisie
+DEP038,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,محسن بن سالم الكعبي,الكعبي,محسن,منوبة,Manouba,140,تونس,Tunisie
+DEP039,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,عبد الرؤوف بن الصادق العيادي,العيادي,عبد الرؤوف,منوبة,Manouba,140,تونس,Tunisie
+DEP040,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,عبد الرحمان بن محمد الباهي الأدغم,الأدغم,عبد الرحمان,منوبة,Manouba,140,تونس,Tunisie
+DEP041,Parti du néo Destour,PND,136,الحزب الدستوري الجديد,الحزب الدستوري الجديد,عبد الرزاق بن عثمان خلولي,خلولي,عبد الرزاق,منوبة,Manouba,140,تونس,Tunisie
+DEP042,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,علي بن ناجي حويجي,حويجي,علي,منوبة,Manouba,140,تونس,Tunisie
+DEP043,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,سمير بن محمد ديلو,ديلو,سمير,بنزرت,Bizerte,170,تونس,Tunisie
+DEP044,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,عائشة بنت الهادي الذوادي,الذوادي,عائشة,بنزرت,Bizerte,170,تونس,Tunisie
+DEP045,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,بشير بن علي رضا اللزام,اللزام,بشير,بنزرت,Bizerte,170,تونس,Tunisie
+DEP046,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,آسية بنت علي النفاتي,النفاتي,آسية,بنزرت,Bizerte,170,تونس,Tunisie
+DEP047,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,هشام بن محمد الشريف بن جامع,بن جامع,هشام,بنزرت,Bizerte,170,تونس,Tunisie
+DEP048,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,محمد بن يوسف العلوش,العلوش,محمد,بنزرت,Bizerte,170,تونس,Tunisie
+DEP049,Mouvement du peuple,MP,386,حركة الشعب,حركة الشعب,مراد بن العجمي العمدوني,العمدوني,مراد,بنزرت,Bizerte,170,تونس,Tunisie
+DEP050,Parti Démocrate Progressiste,PDP,137,الحزب الديمقراطي التقدمي,الحزب الديمقراطي التقدمي,المهدي بن مصطفى بن غربية,بن غربية,مهدي,بنزرت,Bizerte,170,تونس,Tunisie
+DEP051,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,محمد الصالح بن عبد الكريم شعيرات,شعيرات,محمد الصالح,بنزرت,Bizerte,170,تونس,Tunisie
+DEP052,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,محمد بن حمدة بن سالم,بن سالم,محمد,زغوان,Zaghouan,160,تونس,Tunisie
+DEP053,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,نبيهة بنت الحبيب ترجمان,ترجمان,نبيهة,زغوان,Zaghouan,160,تونس,Tunisie
+DEP054,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,الجديدي بن الكيلاني السبوعي,السبوعي,جديدي,زغوان,Zaghouan,160,تونس,Tunisie
+DEP055,Parti Démocrate Progressiste,PDP,137,الحزب الديمقراطي التقدمي,الحزب الديمقراطي التقدمي,قيس بن فتحي مختار,مختار,قيس,زغوان,Zaghouan,160,تونس,Tunisie
+DEP056,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,الناصر بن محمد إبراهمي,إبراهمي,ناصر,زغوان,Zaghouan,160,تونس,Tunisie
+DEP057,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,المعز بن عبد الرحمان ابن الحاج رحومة,ابن الحاج رحومة,المعز,نابل 1,Nabeul 1,151,تونس,Tunisie
+DEP058,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,سناء بنت محمد الحداد,الحداد,سناء,نابل 1,Nabeul 1,151,تونس,Tunisie
+DEP059,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,محمد المحرزي بن بوجمعة عبو,عبو,محمد المحرزي,نابل 1,Nabeul 1,151,تونس,Tunisie
+DEP060,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,عبد اللطيف بن عبد الرحمان عبيد,عبيد,عبد اللطيف,نابل 1,Nabeul 1,151,تونس,Tunisie
+DEP061,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,طارق بن عبد الرحمان بوعزيز,بوعزيز,طارق,نابل 1,Nabeul 1,151,تونس,Tunisie
+DEP062,Afek Tounes,Afek,401,آفاق تونس,حزب آفاق تونس,نعمان بن جميل الفهري,الفهري,نعمان,نابل 1,Nabeul 1,151,تونس,Tunisie
+DEP063,Parti Démocrate Progressiste,PDP,137,الحزب الديمقراطي التقدمي,الحزب الديمقراطي التقدمي,نجلاء بنت عبد الجليل بوريال حرم الصيد,بوريال الصيد,نجلاء,نابل 1,Nabeul 1,151,تونس,Tunisie
+DEP064,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,عماد بن حسين الحمامي,الحمامي,عماد,نابل 2,Nabeul 2,152,تونس,Tunisie
+DEP065,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,صالحة بنت محمد بن عيشة,بن عيشة,صالحة,نابل 2,Nabeul 2,152,تونس,Tunisie
+DEP066,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,محمد المنصف بن محمد المرزوقي,المرزوقي,محمد المنصف,نابل 2,Nabeul 2,152,تونس,Tunisie
+DEP067,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,فاطمة بنت أحمد الغربي,الغربي,فاطمة,نابل 2,Nabeul 2,152,تونس,Tunisie
+DEP068,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,المنصف بن علي شارني,شارني,منصف,نابل 2,Nabeul 2,152,تونس,Tunisie
+DEP069,Parti Démocrate Progressiste,PDP,137,الحزب الديمقراطي التقدمي,الحزب الديمقراطي التقدمي,محمود بن نور الدين بارود,بارود,محمود,نابل 2,Nabeul 2,152,تونس,Tunisie
+DEP070,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,محمد بن إبراهيم سعيدي,سعيدي,محمد,باجـة,Béjà,210,تونس,Tunisie
+DEP071,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,نبيلة بنت عبد العزيز العسكري السنوسي,العسكري السنوسي,نبيلة,باجـة,Béjà,210,تونس,Tunisie
+DEP072,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,أيمن بن أحمد الزواغي,الزواغي,أيمن,باجـة,Béjà,210,تونس,Tunisie
+DEP073,Parti Démocrate Progressiste,PDP,137,الحزب الديمقراطي التقدمي,الحزب الديمقراطي التقدمي,شكري بن عبد الرحمان القسطلّي,القسطلّي,شكري,باجـة,Béjà,210,تونس,Tunisie
+DEP074,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,علي بن بشير بالشريفة,بالشريفة,علي,باجـة,Béjà,210,تونس,Tunisie
+DEP075,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,ربيع بن الحبيب العابدي,العابدي,ربيع,باجـة,Béjà,210,تونس,Tunisie
+DEP076,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,أحمد بن العربي المشرقي,المشرقي,أحمد,جندوبة,Jendouba,220,تونس,Tunisie
+DEP077,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,سناء بنت الحبيب مرسني,مرسني,سناء,جندوبة,Jendouba,220,تونس,Tunisie
+DEP078,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,أنور بن حسن مرزوقي,مرزوقي,أنور,جندوبة,Jendouba,220,تونس,Tunisie
+DEP079,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,سعيد بن رجب مشيشي,مشيشي,سعيد,جندوبة,Jendouba,220,تونس,Tunisie
+DEP080,Parti Démocrate Progressiste,PDP,137,الحزب الديمقراطي التقدمي,الحزب الديمقراطي التقدمي,رابح بن محمد الخرايفي,الخرايفي,رابح,جندوبة,Jendouba,220,تونس,Tunisie
+DEP081,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,ضمير بن نور الدين المناعي,المناعي,ضمير,جندوبة,Jendouba,220,تونس,Tunisie
+DEP082,Liste indépendante “Lutte sociale”,"Liste ""Lutte sociale""",330,قائمة النضال الاجتماعي,القائمة المستقلة النضال الاجتماعي,وسام بن حسين ياسين,ياسين,وسام,جندوبة,Jendouba,220,تونس,Tunisie
+DEP083,Mouvement des Patriotes Démocrates ,MPD,394,حركة الوطنيون,حركة الوطنيون الديمقراطيون,منجي بن الحبيب الرحوي,الرحوي,منجي,جندوبة,Jendouba,220,تونس,Tunisie
+DEP084,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,عبد اللطيف بن الطيب المكي,المكي,عبد اللطيف,الكاف,Le Kef,230,تونس,Tunisie
+DEP085,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,منيرة بنت فرحات عمري,عمري,منيرة,الكاف,Le Kef,230,تونس,Tunisie
+DEP086,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,حاتم بن عبد الله الكلاعي,الكلاعي,حاتم,الكاف,Le Kef,230,تونس,Tunisie
+DEP087,"Liste indépendante ""l'Espoir""","Liste ""l'Espoir""",64,قائمة الأمل,القائمة المستقلة الأمل,محمد نجيب بن العرابي الحسني,الحسني,محمد نجيب,الكاف,Le Kef,230,تونس,Tunisie
+DEP088,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,طارق بن العياشي العبيدي,العبيدي,طارق,الكاف,Le Kef,230,تونس,Tunisie
+DEP089,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,عبد القادر بن الطيب بن خميس,بن خميس,عبد القادر,الكاف,Le Kef,230,تونس,Tunisie
+DEP090,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,عادل بن محمد البشير بن عطية,بن عطية,عادل,سليانة,Siliana,240,تونس,Tunisie
+DEP091,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,سامية بنت بلقاسم الفرشيشي,الفرشيشي,سامية,سليانة,Siliana,240,تونس,Tunisie
+DEP092,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,شكري بن علي العرفاوي,العرفاوي,شكري,سليانة,Siliana,240,تونس,Tunisie
+DEP093,Union Patriotique Libre,UPL,96,الاتحاد الوطني الحر,الاتحاد الوطني الحر,نور الدين بن محمد المرابطي,المرابطي,نور الدين,سليانة,Siliana,240,تونس,Tunisie
+DEP094,Parti Communiste des Ouvriers de Tunisie,PCOT,437,حزب العمال الشيوعي,حزب العمال الشيوعي التونسي - البديل الثوري-,حطاب بن علي بركاتي,بركاتي,حطاب,سليانة,Siliana,240,تونس,Tunisie
+DEP095,Parti Démocrate Progressiste,PDP,137,الحزب الديمقراطي التقدمي,الحزب الديمقراطي التقدمي,إياد بن إبراهيم الدهماني,الدهماني,إياد,سليانة,Siliana,240,تونس,Tunisie
+DEP096,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,حمادي بن بوراوي الجبالي,الجبالي,حمادي,سوسة,Sousse,310,تونس,Tunisie
+DEP097,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,منية بنت الزائر إبراهيم,إبراهيم,منية,سوسة,Sousse,310,تونس,Tunisie
+DEP098,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,زياد بن سالم العذاري,العذاري,زياد,سوسة,Sousse,310,تونس,Tunisie
+DEP099,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,فطومة بنت الطيب عطية,عطية,فطومة,سوسة,Sousse,310,تونس,Tunisie
+DEP100,L'initiative (Al Moubadara),L'initiative (Al Moubadara),447,المبادرة,حزب المبادرة,محمد كريم بن يوسف كريفة,كريفة,محمد كريم,سوسة,Sousse,310,تونس,Tunisie
+DEP101,L'initiative (Al Moubadara),L'initiative (Al Moubadara),447,المبادرة,حزب المبادرة,منى بنت محمد بن نصر,بن نصر,منى,سوسة,Sousse,310,تونس,Tunisie
+DEP102,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,الطاهر بن محمد هميلة,هميلة,طاهر,سوسة,Sousse,310,تونس,Tunisie
+DEP103,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,اسكندر بن حراث بوعلاقي,بوعلاقي,اسكندر,سوسة,Sousse,310,تونس,Tunisie
+DEP104,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,صالح بن محمد شعيب,شعيب,صالح,سوسة,Sousse,310,تونس,Tunisie
+DEP105,Parti Démocrate Progressiste,PDP,137,الحزب الديمقراطي التقدمي,الحزب الديمقراطي التقدمي,محمد بن عبد الحميد قحبيش,قحبيش,محمد,سوسة,Sousse,310,تونس,Tunisie
+DEP106,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,نجيب بن محمد عامر مراد,مراد,نجيب,المنستير,Monastir,320,تونس,Tunisie
+DEP107,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,سنية بنت أحمد تومية,تومية,سنية,المنستير,Monastir,320,تونس,Tunisie
+DEP108,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,منير بن محمد بن هنية,بن هنية,منير,المنستير,Monastir,320,تونس,Tunisie
+DEP109,L'initiative (Al Moubadara),L'initiative (Al Moubadara),447,المبادرة,حزب المبادرة,الهادي بن خليفة الشاوش,الشاوش,هادي,المنستير,Monastir,320,تونس,Tunisie
+DEP110,L'initiative (Al Moubadara),L'initiative (Al Moubadara),447,المبادرة,حزب المبادرة,أميرة بنت محمد صالح مرزوق,مرزوق,أميرة,المنستير,Monastir,320,تونس,Tunisie
+DEP111,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,الأزهر بن طاهر الشملي,الشملي,أزهر,المنستير,Monastir,320,تونس,Tunisie
+DEP112,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,جمال بن الهادي طوير,طوير,جمال,المنستير,Monastir,320,تونس,Tunisie
+DEP113,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,محمد عبد المنعم بن عامر كرير,كرير,محمد عبد المنعم,المنستير,Monastir,320,تونس,Tunisie
+DEP114,Parti de la Nation Culturel et Unioniste,PNCU,410, الحزب الوحدوي,حزب الأمة الثقافي الوحدوي,إبراهيم بن أحمد حامدي,حامدي,إبراهيم,المنستير,Monastir,320,تونس,Tunisie
+DEP115,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,الهادي بن العجمي بن ابراهم,بن ابراهم,هادي,المهدية,Mahdia,330,تونس,Tunisie
+DEP116,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,نجيبة بنت الهادي بريول, بريول,نجيبة,المهدية,Mahdia,330,تونس,Tunisie
+DEP117,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,عبد العزيز بن أحمد شعبان,شعبان,عبد العزيز,المهدية,Mahdia,330,تونس,Tunisie
+DEP118,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,جلال بن سليمان فرحات,فرحات,جلال,المهدية,Mahdia,330,تونس,Tunisie
+DEP119,L'initiative (Al Moubadara),L'initiative (Al Moubadara),447,المبادرة,حزب المبادرة,فاضل بن محمد الوج,الوج,فاضل,المهدية,Mahdia,330,تونس,Tunisie
+DEP120,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,رفيق بن مفتاح التليلي,التليلي,رفيق,المهدية,Mahdia,330,تونس,Tunisie
+DEP121,Afek Tounes,Afek,401,آفاق تونس,حزب آفاق تونس,ريم بنت محمد محجوب,محجوب,ريم,المهدية,Mahdia,330,تونس,Tunisie
+DEP122,Parti de la Justice et de l’Egalité,PJE,435,العدالة والمساواة,حزب العدالة والمساواة,محمد لطفي بن البشير بن مصباح,بن مصباح,محمد لطفي,المهدية,Mahdia,330,تونس,Tunisie
+DEP123,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,المنصف بن محمد بن سالم,بن سالم,منصف,صفاقس 1,Sfax 1,341,تونس,Tunisie
+DEP124,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,فطوم بنت عبد العزيز الأسود,الأسود,فطوم,صفاقس 1,Sfax 1,341,تونس,Tunisie
+DEP125,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,كمال بن عبد الرحمان عمّار,عمّار,كمال,صفاقس 1,Sfax 1,341,تونس,Tunisie
+DEP126,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,محمد الكراي بن مسعود الجربي,الجربي,محمد الكراي,صفاقس 1,Sfax 1,341,تونس,Tunisie
+DEP127,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,حنان بنت محسن الساسي,الساسي,حنان,صفاقس 1,Sfax 1,341,تونس,Tunisie
+DEP128,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,جمال بن الشاذلي القرقوري,القرقوري,جمال,صفاقس 1,Sfax 1,341,تونس,Tunisie
+DEP129,Parti Communiste des Ouvriers de Tunisie,PCOT,437,حزب العمال الشيوعي,حزب العمال الشيوعي التونسي -البديل الثوري-,أحمد بن العيادي السافي,السافي,أحمد,صفاقس 1,Sfax 1,341,تونس,Tunisie
+DEP130,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,الحبيب بن محمد اللوز,اللوز,حبيب,صفاقس 2,Sfax 2,342,تونس,Tunisie
+DEP131,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,كلثوم بنت علي بدر الدين,بدر الدين,كلثوم,صفاقس 2,Sfax 2,342,تونس,Tunisie
+DEP132,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,بدر الدين بن منصور عبد الكافي,عبد الكافي,بدر الدين,صفاقس 2,Sfax 2,342,تونس,Tunisie
+DEP133,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,حبيبة بنت محمد التريكي,التريكي,حبيبة,صفاقس 2,Sfax 2,342,تونس,Tunisie
+DEP134,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,عبد الوهاب بن علي معطر,معطر,عبد الوهاب,صفاقس 2,Sfax 2,342,تونس,Tunisie
+DEP135,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,معز بن عبد العزيز كمون,كمون,معز,صفاقس 2,Sfax 2,342,تونس,Tunisie
+DEP136,"Liste indépendante ""La voix de l’avenir"" ","Liste ""La voix de l’avenir""",505,قائمة صوت المستقبل,القائمة المستقلة صوت المستقبل,صلاح الدين بن محمد الزحاف,الزحاف,صلاح الدين,صفاقس 2,Sfax 2,342,تونس,Tunisie
+DEP137,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,جلال بن محمد بوزيد,بوزيد,جلال,صفاقس 2,Sfax 2,342,تونس,Tunisie
+DEP138,Afek Tounes,Afek,401,آفاق تونس,حزب آفاق تونس,شكري بن أحمد يعيش,يعيش,شكري,صفاقس 2,Sfax 2,342,تونس,Tunisie
+DEP139,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,محمود بن الهادي قويعة,قويعة,محمود,القيروان,Kairouan,410,تونس,Tunisie
+DEP140,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,فريدة بنت علي عبيدي,عبيدي,فريدة,القيروان,Kairouan,410,تونس,Tunisie
+DEP141,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,أحمد بن المختار سميعي,سميعي,أحمد,القيروان,Kairouan,410,تونس,Tunisie
+DEP142,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,مفيدة بنت خليفة مرزوقي,مرزوقي,مفيدة,القيروان,Kairouan,410,تونس,Tunisie
+DEP143,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,رمضان بن محمد دغماني,دغماني,رمضان,القيروان,Kairouan,410,تونس,Tunisie
+DEP144,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,ريم بنت عمر ثايري,ثايري,ريم,القيروان,Kairouan,410,تونس,Tunisie
+DEP145,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,نزار بن أحمد مخلوفي,مخلوفي,نزار,القيروان,Kairouan,410,تونس,Tunisie
+DEP146,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,محمد الحبيب بن الطاهر هرقام,هرقام,محمد,القيروان,Kairouan,410,تونس,Tunisie
+DEP147,Parti Communiste des Ouvriers de Tunisie,PCOT,437,حزب العمال الشيوعي,حزب العمال الشيوعي التونسي -البديل الثوري-,فتحي بن محمد اللطيف,اللطيف,فتحي,القيروان,Kairouan,410,تونس,Tunisie
+DEP148,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,الوليد بن الزبير بناني,بناني,وليد,القصرين,Kasserine,420,تونس,Tunisie
+DEP149,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,خيرة بنت الطيب صغيري,صغيري,خيرة,القصرين,Kasserine,420,تونس,Tunisie
+DEP150,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,فرح بن الصيفي النصيبي,النصيبي,فرح,القصرين,Kasserine,420,تونس,Tunisie
+DEP151,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,ربيعة بنت محمد نجلاوي,نجلاوي,ربيعة,القصرين,Kasserine,420,تونس,Tunisie
+DEP152,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,محمد علي بن صالح نصري,نصري,محمد,القصرين,Kasserine,420,تونس,Tunisie
+DEP153,Mouvement des Démocrates Socialistes,MDS,382,حركة الديمقراطيين الاشتراكيين,حركة الديمقراطيين الاشتراكيين,كمال بن البرني السعداوي,السعداوي,كمال,القصرين,Kasserine,420,تونس,Tunisie
+DEP154,Parti Démocrate Progressiste,PDP,137,الحزب الديمقراطي التقدمي,الحزب الديمقراطي التقدمي,محمد الناجي بن أحمد غرسلي,غرسلي,محمد الناجي,القصرين,Kasserine,420,تونس,Tunisie
+DEP155,Liste indépendante “Fidélité”,"Liste ""Fidélité""",360,قائمة الوفاء,القائمة المستقلة الوفاء,مبروك بن المنصف الحريزي,الحريزي,مبروك,القصرين,Kasserine,420,تونس,Tunisie
+DEP156,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,محمد بن يوسف حامدي,حامدي,محمد,سيدي بوزيد,Sidi Bouzid,430,تونس,Tunisie
+DEP157,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,فايزة بنت عبد القادر كدوسي,كدوسي,فايزة,سيدي بوزيد,Sidi Bouzid,430,تونس,Tunisie
+DEP158,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,الحسني بن طرشون بدري,بدري,حسني,سيدي بوزيد,Sidi Bouzid,430,تونس,Tunisie
+DEP159,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,محمد الطاهر بن عبد الله تليلي,تليلي,محمد,سيدي بوزيد,Sidi Bouzid,430,تونس,Tunisie
+DEP160,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,بية بنت أحمد جوادي,جوادي,بية,سيدي بوزيد,Sidi Bouzid,430,تونس,Tunisie
+DEP161,"Liste indépendante 'L’indépendant""","Liste “L’indépendant""",286,قائمة المستقل,القائمة المستقلة المستقل,محمد الطاهر بن عبد الرحمان إيلاه,إيلاه,محمد الطاهر,سيدي بوزيد,Sidi Bouzid,430,تونس,Tunisie
+DEP162,Mouvement du peuple,MP,386,حركة الشعب,حركة الشعب,محمد بن أحمد براهمي,براهمي,محمد,سيدي بوزيد,Sidi Bouzid,430,تونس,Tunisie
+DEP163,Mouvement des Démocrates Socialistes,MDS,382,حركة الديمقراطيين الاشتراكيين,حركة الديمقراطيين الاشتراكيين,حمد بن الأزهر خصخوصي,خصخوصي,حمد,سيدي بوزيد,Sidi Bouzid,430,تونس,Tunisie
+DEP164,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,الحبيب بن محمد المولدي خضر,خضر,حبيب,قابس,Gabes,510,تونس,Tunisie
+DEP165,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,آمال بنت علي عزوز,عزوز,آمال,قابس,Gabes,510,تونس,Tunisie
+DEP166,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,عبد القادر بن محمد القادري,القادري,عبد القادر,قابس,Gabes,510,تونس,Tunisie
+DEP167,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,دليلة بنت عبد السلام بوعين,بوعين,دليلة,قابس,Gabes,510,تونس,Tunisie
+DEP168,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,نوفل بن عبد الكريم الغريبي,الغريبي,نوفل,قابس,Gabes,510,تونس,Tunisie
+DEP169,"Liste indépendante ""Pour un front national Tunisien""",,566,القائمة من أجل جبهة وطنية,القائمة المستقلة من أجل جبهة وطنية تونسية,فؤاد بن عبد الحميد ثامر,ثامر,فؤاد,قابس,Gabes,510,تونس,Tunisie
+DEP170,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,مولدي بن عبد الرحمان الزيدي,الزيدي,مولدي,قابس,Gabes,510,تونس,Tunisie
+DEP171,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,عبد المجيد بن عمر النجار,النجار,عبد المجيد,مدنين,Medenine,520,تونس,Tunisie
+DEP172,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,بسمة بنت حميدة الجبالي,الجبالي,بسمة,مدنين,Medenine,520,تونس,Tunisie
+DEP173,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,صلاح الدين بن محمد لهيبة,لهيبة,صلاح الدين,مدنين,Medenine,520,تونس,Tunisie
+DEP174,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,هاجر بنت سالم منيفي,منيفي,هاجر,مدنين,Medenine,520,تونس,Tunisie
+DEP175,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,النفطي بن المبروك المحظي,المحظي,نفطي,مدنين,Medenine,520,تونس,Tunisie
+DEP176,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,سليم بن الطاهر بن مسعود بن حميدان,بن حميدان,سليم,مدنين,Medenine,520,تونس,Tunisie
+DEP177,Afek Tounes,Afek,401,آفاق تونس,حزب آفاق تونس,سميرة بنت الجيلاني مرعي, مرعي,سميرة,مدنين,Medenine,520,تونس,Tunisie
+DEP178,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,سعيد بن نصر خرشوفي,خرشوفي,سعيد,مدنين,Medenine,520,تونس,Tunisie
+DEP179,Parti Démocrate Progressiste,PDP,137,الحزب الديمقراطي التقدمي,الحزب الديمقراطي التقدمي,محمد بن المبروك الحامدي,الحامدي,محمد,مدنين,Medenine,520,تونس,Tunisie
+DEP180,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,محمد بن صالح الصغير,محمد بن صالح ,محمد,تطاوين,Tataouine,530,تونس,Tunisie
+DEP181,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,جوهرة بنت شاكر التيس,التيس,جوهرة,تطاوين,Tataouine,530,تونس,Tunisie
+DEP182,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,علي بن محمد فارس,فارس,علي,تطاوين,Tataouine,530,تونس,Tunisie
+DEP183,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,سعد بن محمد الفاتح بوعيش,بوعيش,سعد,تطاوين,Tataouine,530,تونس,Tunisie
+DEP184,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,سليمان بن محمد هلال,هلال,سليمان,قفصة,Gafsa,610,تونس,Tunisie
+DEP185,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,الزهرة بنت الطيب صميدة,صميدة,زهرة,قفصة,Gafsa,610,تونس,Tunisie
+DEP186,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,عبد الحليم بن الأزهر زواري,زواري,عبد الحليم,قفصة,Gafsa,610,تونس,Tunisie
+DEP187,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,عبد السلام بن علي شعبان,شعبان,عبد السلام,قفصة,Gafsa,610,تونس,Tunisie
+DEP188,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,حسن بن أحمد رضواني,رضواني,حسن,قفصة,Gafsa,610,تونس,Tunisie
+DEP189,Liste indépendante “Justice”,"Liste ""Justice""",8,قائمة العدالة,القائمة المستقلة العدالة,فيصل بن حسين جدلاوي,جدلاوي,فيصل,قفصة,Gafsa,610,تونس,Tunisie
+DEP190,Parti Démocrate Progressiste,PDP,137,الحزب الديمقراطي التقدمي,الحزب الديمقراطي التقدمي,محمد بن قدري كحيلة,كحيلة,محمد,قفصة,Gafsa,610,تونس,Tunisie
+DEP191,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,حافظ إبراهيم بن إبراهيم الأسود,الأسود,حافظ إبراهيم,توزر,Tozeur,620,تونس,Tunisie
+DEP192,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,كوثر بنت محمد الأدغم,الأدغم,كوثر,توزر,Tozeur,620,تونس,Tunisie
+DEP193,Liste indépendante “Fidélité aux martyrs”,Liste “Fidélité aux martyrs”,355,قائمة الوفاء للشهداء,القائمة المستقلة الوفاء للشهداء,محمد شفيق بن محمد المكي زرقين,زرقين,محمد شفيق,توزر,Tozeur,620,تونس,Tunisie
+DEP194,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,أزاد بن محمد الطاهر بادي,بادي,أزاد,توزر,Tozeur,620,تونس,Tunisie
+DEP195,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,البشير بن محمد شمام,شمام,بشير,قبلي,Kebili,630,تونس,Tunisie
+DEP196,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,منية بنت محسن القصري,القصري,منية,قبلي,Kebili,630,تونس,Tunisie
+DEP197,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,عمر بن محمد الصالح الشتوي,الشتوي,عمر,قبلي,Kebili,630,تونس,Tunisie
+DEP198,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,حسناء بنت علي مرسيط,مرسيط,حسناء,قبلي,Kebili,630,تونس,Tunisie
+DEP199,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,إبراهيم بن الصادق قصاص,قصاص,إبراهيم,قبلي,Kebili,630,تونس,Tunisie
+DEP200,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,عامر بن اللطيف الأعريض,الأعريض,عامر,فرنسا 1,France 1,100,دول العالم,Pays Etrangers
+DEP201,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,محرزية بنت محمد الصغير العبيدي,الصغير العبيدي,محرزية,فرنسا 1,France 1,100,دول العالم,Pays Etrangers
+DEP202,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,عماد بن محسن الدائمي,الدائمي,عماد,فرنسا 1,France 1,100,دول العالم,Pays Etrangers
+DEP203,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,سليم بن عبد السلام,بن عبد السلام,سليم,فرنسا 1,France 1,100,دول العالم,Pays Etrangers
+DEP204,Pôle Démocratique Moderniste,PDM,259,القطب,القطب الديمقراطي الحداثي,نادية بنت الصادق شعبان,شعبان,نادية,فرنسا 1,France 1,100,دول العالم,Pays Etrangers
+DEP205,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,ناجي بن الشاذلي الجمل,الجمل,ناجي,فرنسا 2,France 2,200,دول العالم,Pays Etrangers
+DEP206,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,دليلة بنت أحمد الببة,الببة,دليلة,فرنسا 2,France 2,200,دول العالم,Pays Etrangers
+DEP207,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,الهادي بن علي بن عباس,عباس,هادي,فرنسا 2,France 2,200,دول العالم,Pays Etrangers
+DEP208,Forum Démocratique pour le Travail et les Libertés,Ettakatol,430,حزب التكتل,حزب التكتل الديمقراطي من أجل العمل والحريات,كريمة بنت محمد سويد,سويد,كريمة,فرنسا 2,France 2,200,دول العالم,Pays Etrangers
+DEP209,Parti Démocrate Progressiste,PDP,137,الحزب الديمقراطي التقدمي,الحزب الديمقراطي التقدمي,محمد بن المنصف الماي,الماي,محمد,فرنسا 2,France 2,200,دول العالم,Pays Etrangers
+DEP210,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,أسامة بن عمر علية الصغير,الصغير,أسامة,إيطاليا,Italie,300,دول العالم,Pays Etrangers
+DEP211,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,إيمان بنت محمد بن محمد,بن محمد,إيمان,إيطاليا,Italie,300,دول العالم,Pays Etrangers
+DEP212,"Pétition populaire pour la liberté,la justice et le développement",Pétition populaire,500,قائمة العريضة الشعبية,القائمة المستقلة العريضة الشعبية للحرية والعدالة والتنمية,عبد الستار بن الوردي الضيفي,الضيفي,عبد الستار,إيطاليا,Italie,300,دول العالم,Pays Etrangers
+DEP213,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,فتحي بن نصر العيادي,العيادي,فتحي,ألمانيا,Allemagne,400,دول العالم,Pays Etrangers
+DEP214,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,فردوس بن أحمد الوسلاتي,الوسلاتي,فردوس,القارة الأمريكية وبقية الدول الأوروبية,Continent américain et reste de l'Europe,500,دول العالم,Pays Etrangers
+DEP215,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,مبروكة بنت الهاشمي مبارك,مبارك,مبروكة,القارة الأمريكية وبقية الدول الأوروبية,Continent américain et reste de l'Europe,500,دول العالم,Pays Etrangers
+DEP216,Mouvement Ennahda,Ennahda,464,النهضة,حزب حركة النهضة,كمال بن عبد المجيد بن عمارة,بن عمارة,كمال,الدول العربية و بقية دول العالم,Pays arabes et reste du monde,600,دول العالم,Pays Etrangers
+DEP217,Congrès pour la république,CPR,446,حزب المؤتمر,حزب المؤتمر من أجل الجمهورية,إقبال بن الهادي المصدع,المصدع,إقبال,الدول العربية و بقية دول العالم,Pays arabes et reste du monde,600,دول العالم,Pays Etrangers

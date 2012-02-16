@@ -6,12 +6,43 @@ body {
 .search label {
   font-size: 16px;
   padding-right: 5px;
+<<<<<<< HEAD
+=======
+  font-weight: bold;
+  font-size: 18px;
+  text-rendering: optimizelegibility;
+>>>>>>> gh-pages
 }
 
 section {
   padding-top: 30px;
 }
 
+<<<<<<< HEAD
+=======
+.navbar-fixed-top .brand {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  float: right;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+.navbar-fixed-top .brand:hover {
+  text-decoration: none;
+}
+
+
+#info-box div.title
+{
+    font-size: 20px;
+}
+
+>>>>>>> gh-pages
 path {
   fill: rgb(209, 210, 213);
   stroke-miterlimit: 4; 
@@ -19,7 +50,21 @@ path {
   stroke-opacity: 1;
   stroke: rgb(255, 255, 255);
   stroke-width: 2px;
+<<<<<<< HEAD
   overflow: auto;
 }
 
+=======
+  overflow: hidden;
+}
+
+path {
+  fill: rgb(209, 210, 213);
+  stroke: black;
+  stroke-width: .3px;
+  overflow: hidden;
+}
+
+
+>>>>>>> gh-pages
 
