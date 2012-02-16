@@ -7,6 +7,12 @@ body {
   font-size: 16px;
   padding-right: 5px;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  font-weight: bold;
+  font-size: 18px;
+  text-rendering: optimizelegibility;
+>>>>>>> gh-pages
 =======
   font-weight: bold;
   font-size: 18px;
@@ -19,7 +25,10 @@ section {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> gh-pages
 .navbar-fixed-top .brand {
   padding-right: 0;
   padding-left: 0;
@@ -42,6 +51,9 @@ section {
     font-size: 20px;
 }
 
+<<<<<<< HEAD
+>>>>>>> gh-pages
+=======
 >>>>>>> gh-pages
 path {
   fill: rgb(209, 210, 213);
@@ -51,10 +63,13 @@ path {
   stroke: rgb(255, 255, 255);
   stroke-width: 2px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   overflow: auto;
 }
 
 =======
+=======
+>>>>>>> gh-pages
   overflow: hidden;
 }
 
@@ -66,5 +81,8 @@ path {
 }
 
 
+<<<<<<< HEAD
+>>>>>>> gh-pages
+=======
 >>>>>>> gh-pages
 

@@ -4,10 +4,17 @@
     <mapcanvas>
         <units>degrees</units>
         <extent>
+<<<<<<< HEAD
             <xmin>10.327068</xmin>
             <ymin>35.530849</ymin>
             <xmax>10.738959</xmax>
             <ymax>35.843384</ymax>
+=======
+            <xmin>6.320448</xmin>
+            <ymin>36.927340</ymin>
+            <xmax>6.732340</xmax>
+            <ymax>37.239875</ymax>
+>>>>>>> gh-pages
         </extent>
         <projections>0</projections>
         <destinationsrs>
