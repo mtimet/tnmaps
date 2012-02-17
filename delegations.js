@@ -95,7 +95,7 @@ function updateMap(svg, json, path) {
     
     features
         .append("svg:title")
-        .text(function(d) {return d.properties.code_deleg;});
+        .text(function(d) {return d.properties.name_deleg;});
     
     features.exit().remove(); 
     $("path").tipsy({gravity:'w'});
