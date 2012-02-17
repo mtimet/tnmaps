@@ -11,6 +11,7 @@ function mouseover(key) {
 		return d3.hsl(oldColor).darker().toString();
 	    })
 	    .style("stroke-width", "1px")
+/*
 	    .each(function(d){
 		if (d.properties.code_circo) {
 		    d3.select(".circonscriptionName")
@@ -25,6 +26,7 @@ function mouseover(key) {
 			.text(function(d){return d});
 		}
 	    });
+*/
     }
 }
 
@@ -37,7 +39,7 @@ function mouseout(key) {
             .ease("bounce")
             .style("fill",null)
             .style("stroke-width", null);
-
+/*
 	d3.select(".circonscriptionName")
 	    .select(".circonscription")
 	    .data([""])
@@ -47,6 +49,7 @@ function mouseout(key) {
 	    .select(".delegation")
 	    .data([""])
 	    .text(function(d){return d});
+*/  
     }
 }
 
