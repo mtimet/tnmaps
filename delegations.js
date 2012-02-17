@@ -14,7 +14,16 @@ var delegationsMap = svg.append("svg:g");
 var _selectedCirconscription = $("#select-circonscription").val();
 var _addLabels = $("#add-labels").is(":checked");
 
-
+var circonscriptionGroup = svg.append("svg:g")
+    .attr("class","circonscriptionName")
+    .attr("transform","translate(0,20)");
+circonscriptionGroup.append("svg:text")
+    .attr("class","delegation")
+    .text("");
+circonscriptionGroup.append("svg:text")
+    .attr("class","circonscription")
+    .attr("y",""+height-40+"")
+    .text("");
 
 d3.select("#select-circonscription").on("change", function() {
     _selectedCirconscription = this.value;

@@ -9,6 +9,14 @@ var svg = d3.select("#map-circonscriptions")
     .attr("height", height)
     .attr("width", width);
 
+var circonscriptionGroup = svg.append("svg:g")
+    .attr("class","circonscriptionName")
+    .attr("transform","translate(0,25)");
+circonscriptionGroup.append("svg:text")
+    .attr("class","circonscription")
+    .text("");
+
+//<text class="year" transform="translate(15, 50)">2005</text>
 var circonscriptionsMap = svg.append("svg:g");
 var _addLabels = $("#add-labels").is(":checked");
 
@@ -21,34 +29,10 @@ d3.select("#add-labels").on("change", function() {
     load(circonscriptionsMap, width, height);
 });
 
-d3.csv("data/deputy_data.csv", function (csv) {
-    var table = d3.select("#deputy-table");
-    table
-	.select("thead")
-        .append("tr")
-        .selectAll("th")
-        .data(d3.keys(csv[0]))
-        .enter()
-        .append("th")
-        .text(function (d) {return d});
 
-    table
-        .select("tbody")
-        .selectAll("tr")
-        .data(csv)
-        .enter()
-        .append("tr")
-        .filter(function(d){return d['Party Name']=='Mouvement Ennahda';})
-        .selectAll("td")
-        .data(function(d){return d3.entries(d);})
-        .enter()
-        .append("td")
-        .text(function(d) {return d.value;});
-	 
-    
-})
 
 load(circonscriptionsMap, width, height);
+loadDeputyData();
 
 function load(svg, width, height) {
     d3.json("data/geojson/circonscriptions.json", function(json) {
@@ -165,6 +149,33 @@ function quantize(d) {
 	break;
     }
     return "q" + q + "-9";
+}
+
+function loadDeputyData(){
+    d3.csv("data/deputy_data.csv", function (csv) {
+	var table = d3.select("#deputy-table");
+	table
+	    .select("thead")
+            .append("tr")
+            .selectAll("th")
+            .data(d3.keys(csv[0]))
+            .enter()
+            .append("th")
+            .text(function (d) {return d});
+	
+	table
+            .select("tbody")
+            .selectAll("tr")
+            .data(csv)
+            .enter()
+            .append("tr")
+            .filter(function(d){return d['Party Name']=='Mouvement Ennahda';})
+            .selectAll("td")
+            .data(function(d){return d3.entries(d);})
+            .enter()
+            .append("td")
+            .text(function(d) {return d.value;});	
+    });
 }
 
 
