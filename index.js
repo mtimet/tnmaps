@@ -16,7 +16,7 @@ circonscriptionGroup.append("svg:text")
     .attr("class","circonscription")
     .text("");
 
-//<text class="year" transform="translate(15, 50)">2005</text>
+
 var circonscriptionsMap = svg.append("svg:g");
 var _addLabels = $("#add-labels").is(":checked");
 
@@ -83,7 +83,7 @@ function updateMap(svg, json, path) {
     
     features
         .append("svg:title")
-        .text(function(d) {return d.properties.name_1;});
+        .text(function(d) {return d.properties.name_circo;});
     
     features.exit().remove();    
     $("path").tipsy({gravity:'w'}); 
