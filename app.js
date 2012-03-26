@@ -11,22 +11,6 @@ function mouseover(key) {
 		return d3.hsl(oldColor).darker().toString();
 	    })
 	    .style("stroke-width", "1px")
-/*
-	    .each(function(d){
-		if (d.properties.code_circo) {
-		    d3.select(".circonscriptionName")
-		        .select(".circonscription")
-		        .data([d.properties.name_circo])
-			.text(function(d){return d});
-		}
-		if (d.properties.code_deleg) {
-		    d3.select(".circonscriptionName")
-		        .select(".delegation")
-		        .data([d.properties.name_deleg])
-			.text(function(d){return d});
-		}
-	    });
-*/
     }
 }
 
@@ -38,21 +22,26 @@ function mouseout(key) {
             .duration(100)
             .ease("bounce")
             .style("fill",null)
-            .style("stroke-width", null);
-/*
-	d3.select(".circonscriptionName")
-	    .select(".circonscription")
-	    .data([""])
-	    .text(function(d){return d});
-
-	d3.select(".circonscriptionName")
-	    .select(".delegation")
-	    .data([""])
-	    .text(function(d){return d});
-*/  
+            .style("stroke-width", null);  
     }
 }
 
+
+function getProjectionPath(json, width, height){
+    var proj = d3.geo.mercator().scale(1).translate([0, 0]),
+    path = d3.geo.path().projection(proj);
+
+    var bounds0 = d3.geo.bounds(json),
+        bounds = bounds0.map(proj),
+        xscale = width/Math.abs(bounds[1][0] - bounds[0][0]),
+        yscale = height/Math.abs(bounds[1][1] - bounds[0][1]),
+        scale = Math.min(xscale, yscale);
+
+    proj.scale(scale);
+    proj.translate(proj([-bounds0[0][0], -bounds0[1][1]]));
+
+    return path;
+}
 
 function downloadSVG() {
   d3.select(this).attr("href", "data:image/svg+xml;charset=utf-8;base64," + btoa(unescape(encodeURIComponent(
