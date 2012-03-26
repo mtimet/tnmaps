@@ -29,16 +29,16 @@ function update(name) {
     d3.json("data/geojson/" +name + ".json", function(json) {
 
 	var path = getProjectionPath(json, width, height);
-        var svg = d3.select("svg#"+name).select("g");
-	buildMap(svg, json, path);
+	buildMap(name, json, path);
     })
 };
 
 
-function buildMap(svg, json, path) {
+function buildMap(name, json, path) {
+    var svg = d3.select("svg#"+name).select("g");
     var features = svg.selectAll("path")
         .data(json.features, function (d) {
-	    return d.properties.name_1 + " " + d.properties.name_2;
+	    return name + " " + d.properties.name_1 + " " + d.properties.name_2;
         });
     
     features
