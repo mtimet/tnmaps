@@ -98,7 +98,6 @@ function updateMap(svg, json, path) {
         .text(function(d) {return d.properties.name_deleg;});
     
     features.exit().remove(); 
-    $("path").tipsy({gravity:'w'});
 }
 function updateLabels(svg, json, path) {
     if (_addLabels){

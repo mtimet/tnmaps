@@ -73,8 +73,7 @@ function updateMap(map, json, path) {
         .append("svg:title")
         .text(function(d) {return d.properties.name_gov;});
     
-    features.exit().remove();    
-    $("path").tipsy({gravity:'w'}); 
+    features.exit().remove();
 }
 function updateLabels(map, json, path) {
     if (_addLabels){
