@@ -1,9 +1,73 @@
 
+var DELEGATIONS = [
+    { name : "Tunis 1", region : "Grand Tunis"},
+    { name : "Tunis 2", region : "Grand Tunis"},
+    { name : "Ariana", region : "Grand Tunis"},
+    { name : "Ben Arous", region : "Grand Tunis"},
+    { name : "Manubah", region : "Grand Tunis"},
 
+    { name : "Nabeul 1", region : "Nord Est"},
+    { name : "Nabeul 2", region : "Nord Est"},
+    { name : "Zaghouane", region : "Nord Est"},
+    { name : "Bizerte", region : "Nord Est"},
+
+    { name : "Beja", region : "Nord West"},
+    { name : "Jendouba", region : "Nord West"},
+    { name : "Le Kef", region : "Nord West"},
+    { name : "Siliana", region : "Nord West"},
+
+    { name : "Sousse", region : "Centre Est"},
+    { name : "Monastir", region : "Centre Est"},
+    { name : "Mahdia", region : "Centre Est"},
+    { name : "Sfax 1", region : "Centre Est"},
+    { name : "Sfax 2", region : "Centre Est"},
+
+    { name : "Kairaouan", region : "Centre Ouest"},
+    { name : "Kasserine", region : "Centre Ouest"},
+    { name : "Sidi Bouzid", region : "Centre Ouest"},
+
+    { name : "Gabes", region : "Sud Est"},
+    { name : "Medenine", region : "Sud Est"},
+    { name : "Tataouine", region : "Sud Est"},
+
+    { name : "Gafsa", region : "Sud Ouest"},
+    { name : "Tozeur", region : "Sud Ouest"},
+    { name : "Kebili", region : "Sud Ouest"},
+]
 
 var width = $("#map-delegations").width();
 var height = width * 3 / 4;
 
+//add "value" field to DELEGATION items
+DELEGATIONS.forEach(function(_){
+    _.value = _.name.replace(" ","").toLowerCase(); 
+});
+
+//nest delegations by region
+var nest = d3.nest()
+    .key(function(_){return _.region;})
+    .entries(DELEGATIONS);
+
+//build circonscription select element
+var select = d3.select(".controls")
+    .append("select")
+    .attr("id","select-circonscription");
+
+select.selectAll("optgroup")
+    .data(nest)
+    .enter()
+    .append("optgroup")
+    .attr("label", function(_) {return _.key;})
+    .selectAll("option")
+    .data(function(_){return _.values;})
+    .enter()
+    .append("option")
+    .attr("value",function(_){return _.value})
+    .attr("selected",function(_){var hash = location.hash.substr(1) ; return (_.value == hash || _.name == hash) ? "selected" : null;})
+    .text(function(_){return _.name});
+
+
+//build the map
 var svg = d3.select("#map-delegations")
     .append("svg:svg")
     .attr("class", "RdPu")
@@ -25,8 +89,9 @@ circonscriptionGroup.append("svg:text")
     .attr("y",""+height-40+"")
     .text("");
 
-d3.select("#select-circonscription").on("change", function() {
+select.on("change", function() {
     _selectedCirconscription = this.value;
+    
     update(delegationsMap, width, height);
 });
 
@@ -44,6 +109,7 @@ d3.select("#download-svg").on("click", downloadSVG);
 update(delegationsMap, width, height);
 
 function update(svg, width, height) {
+    window.location.hash = "#" + _selectedCirconscription ;
     d3.json("data/geojson/" + _selectedCirconscription + ".json", function(json) {
         _data = json;
 	var path = getProjectionPath(json, width, height);

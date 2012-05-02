@@ -2,12 +2,9 @@
 <html>
   <head>
     <title>Delegations By Circonscription</title>  
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
-    <link rel="stylesheet" href="css/bootstrap-responsive.css"
-type="text/css"/>
-    <link rel="stylesheet" href="css/colorbrewer.css"
-type="text/css"/>
-<link rel="stylesheet" href="css/tipsy.css" type="text/css" />
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" type="text/css"/>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-responsive.css" type="text/css"/>
+    <link rel="stylesheet" href="lib/colorbrewer/colorbrewer.css" type="text/css"/>
     <link rel="stylesheet" href="css/app.css" type="text/css"/>
   </head>
 
@@ -15,6 +12,11 @@ type="text/css"/>
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
+	  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
 	  <a class="brand" href="./index.html">TNAC Maps</a>
 	  <div class="nav-collapse">
 	    <ul class="nav">
@@ -39,49 +41,7 @@ type="text/css"/>
           <div class="control-group">
             <label class="control-label" for="select-circonscription">Circonscription</label>
             <div class="controls">
-              <select id="select-circonscription">
-		<optgroup label="Grand Tunis">
-                  <option value="tunis1" selected>Tunis 1</option>
-                  <option value="tunis2">Tunis 2</option>
-		  <option value="ariana">Ariana</option>
-		  <option value="benarous">Ben Arous</option>
-		  <option value="manubah">Manubah</option>
-		</optgroup>
-		<optgroup label="Nord Est">
-                  <option value="nabeul1">Nabeul 1</option>
-		  <option value="nabeul2">Nabeul 2</option>
-		  <option value="zaghouane">Zaghouane</option>
-		  <option value="bizerte">Bizerte</option>
-		</optgroup>
-		<optgroup label="Nord West">  
-        	  <option value="beja">Beja</option>
-		  <option value="jendouba">Jendouba</option>
-		  <option value="kef">Le Kef</option>
-		  <option value="siliana">Siliana</option>
-		</optgroup>
-		<optgroup label="Centre Est">
-                  <option value="sousse">Sousse</option>
-		  <option value="monastir">Monastir</option>
-		  <option value="mahdia">Mahdia</option>
-		  <option value="sfax1">Sfax 1</option>
-		  <option value="sfax2">Sfax 2</option>
-		</optgroup>
-		<optgroup label="Centre Ouest">
-                  <option value="kairouan">Kairaouan</option>
-		  <option value="kasserine">Kasserine</option>
-		  <option value="sidibouzid">Sidi Bouzid</option>
-		</optgroup>
-		<optgroup label="Sud Est">
-                  <option value="gabes">Gabes</option>
-		  <option value="medenine">Medenine</option>
-		  <option value="tataouine">Tataouine</option>
-		</optgroup>
-		<optgroup label="Sud Ouest">
-		  <option value="gafsa">Gafsa</option>
-		  <option value="tozeur">Tozeur</option>
-		  <option value="kebili">Kebili</option>
-		</optgroup>
-	      </select>
+             
             </div>
           </div>
         </fieldset>
@@ -157,8 +117,9 @@ type="text/css"/>
   
     </div>
     
-    <script type="text/javascript" src="js/d3.v2.min.js"></script>
-    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="lib/d3/d3.v2.min.js"></script>
+    <script type="text/javascript" src="lib/jquery/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
     <script type="text/javascript" src="delegations.js"></script>
   </body>

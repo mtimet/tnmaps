@@ -130,7 +130,8 @@ function updateInfoBox(json) {
     var td = tr.selectAll("td")
 	.data(function(d) { return [d.properties.code_circo, d.properties.name_circo, d.properties.name_1]; })
 	.enter().append("td")
-	.text(function(d) {return d; });
+	.text(function(d,i) {return d; })
+        .on("click", function(d,i){ if (i==2) window.location = "delegations.html#"+d});
 }
 
 function quantize(d) {
