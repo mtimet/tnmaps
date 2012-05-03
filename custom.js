@@ -1,5 +1,5 @@
-var width = 430;
-var height = 542;
+var width = 290;
+var height = 380;
 
 var delegations = ["tunis1","tunis2","ariana","benarous","manubah"
                    ,"nabeul1","nabeul2","zaghouane","bizerte"
