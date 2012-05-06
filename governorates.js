@@ -28,6 +28,7 @@ load(map, width, height);
 
 function load(map, width, height) {
     d3.json("data/geojson/governorates.json", function(json) {
+	json.features.forEach(function(d,i){ d.properties.index = i;});
 	var path = getProjectionPath(json, width, height);
 	updateMap(map, json, path);
 	updateLabels(map, json, path);
@@ -35,6 +36,27 @@ function load(map, width, height) {
     })
 };
 
+function loadDelegationMap(path){
+   return function(d){
+       var delegationName = d.properties.name_govfr.toLowerCase().replace(" ","").replace(" ","");
+   d3.json("data/geojson/"+delegationName+".json", function(json) {
+       var features = d3.select("svg>g").selectAll("path")
+           .data(json.features, function (d) {
+	       return "deleg " + d.properties.name_1 + " " + d.properties.name_2;
+           });
+       
+       features
+           .enter()
+           .append("svg:path");
+       
+       features
+           .attr("class", quantize)
+           .attr("id", function(d) {return d.properties.code_deleg ? d.properties.code_deleg : null})
+           .attr("d", path)
+  
+   });
+   };
+}
 
 function getProjectionPath(json, width, height){
     var proj = d3.geo.mercator().scale(1).translate([0, 0]),
@@ -66,8 +88,9 @@ function updateMap(map, json, path) {
         .attr("class", quantize)
         .attr("id", function(d) {return d.properties.code_gov ? d.properties.code_gov : null})
         .attr("d", path)
-        .on("mouseover", mouseover("code_gov"))
-        .on("mouseout", mouseout("code_gov"));
+        .on("mouseover", fade(.2))
+        .on("mouseout", fade(1))
+        .on("click",loadDelegationMap(path));
     
     features
         .append("svg:title")
@@ -111,8 +134,8 @@ function updateInfoBox(json) {
         .sort(function(a,b) {
 	    return parseInt(a.properties.code_gov) - parseInt(b.properties.code_gov);
 	} )
-	.on("mouseover", mouseover("code_gov"))
-	.on("mouseout", mouseout("code_gov"));
+	.on("mouseover", fade(.2))
+	.on("mouseout", fade(1));
 
     var td = tr.selectAll("td")
 	.data(function(d) { return [d.properties.code_gov, d.properties.name_gov, d.properties.name_govfr]; })

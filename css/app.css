@@ -15,6 +15,9 @@ section {
   padding-top: 30px;
 }
 
+.table tr:hover {
+  font-size: 120%;
+}
 .navbar-fixed-top .brand {
   padding-right: 0;
   padding-left: 0;
@@ -42,20 +45,14 @@ path {
   stroke-miterlimit: 4; 
   stroke-dasharray: none; 
   stroke-opacity: 1;
-  stroke: rgb(255, 255, 255);
-  stroke-width: 2px;
-  overflow: hidden;
-}
-
-path {
-  fill: rgb(209, 210, 213);
   stroke: black;
-  stroke-width: .3px;
+  stroke-width: 1.5px;
   overflow: hidden;
 }
 
 .link { stroke: #ccc; }
 .nodetext { pointer-events: none; font: 10px sans-serif; }
+.hero-unit {padding : 10px}
 
 .circonscriptionName text {
     font-size: 1.25em;

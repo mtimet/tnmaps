@@ -22,7 +22,7 @@ var DELEGATIONS = [
     { name : "Sfax 1", region : "Centre Est"},
     { name : "Sfax 2", region : "Centre Est"},
 
-    { name : "Kairaouan", region : "Centre Ouest"},
+    { name : "Kairouan", region : "Centre Ouest"},
     { name : "Kasserine", region : "Centre Ouest"},
     { name : "Sidi Bouzid", region : "Centre Ouest"},
 
@@ -156,8 +156,8 @@ function updateMap(svg, json, path) {
         .attr("circonscription-ar", function(d) {return d.properties.name_circo})
         .attr("circonscription-fr", function(d) {return d.properties.name_1})
         .attr("circonscription-code", function(d) {return d.properties.code_circo})
-        .on("mouseover", mouseover("code_deleg"))
-        .on("mouseout", mouseout("code_deleg"));
+        .on("mouseover", fade(.2))// mouseover("code_deleg"))
+        .on("mouseout", fade(1))//mouseout("code_deleg"))
     
     features
         .append("svg:title")
@@ -211,8 +211,8 @@ function updateInfoBox(json) {
 		return parseInt(a.properties.code_deleg) - parseInt(b.properties.code_deleg);
 	    }
 	})
-	.on("mouseover", mouseover("code_deleg"))
-	.on("mouseout", mouseout("code_deleg"));
+	.on("mouseover", fade(.2))
+	.on("mouseout", fade(1));
     var td = tr.selectAll("td")
 	.data(function(d) { return [d.properties.code_deleg, d.properties.name_deleg, d.properties.name_2]; })
 	.enter().append("td")

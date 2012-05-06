@@ -49,3 +49,15 @@ function downloadSVG() {
        .attr("xmlns", "http://www.w3.org/2000/svg")
      .node().parentNode.innerHTML))));
 }
+
+function fade(opacity) {
+  return function(g) {
+    svg.selectAll("svg>g>path")
+        .filter(function(d) {
+          return d.id != g.id;
+        })
+      .transition()
+        .style("opacity", opacity);
+
+  };
+}

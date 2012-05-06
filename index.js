@@ -78,8 +78,9 @@ function updateMap(svg, json, path) {
         .attr("circonscription-ar", function(d) {return d.properties.name_circo})
         .attr("circonscription-fr", function(d) {return d.properties.name_1})
         .attr("circonscription-code", function(d) {return d.properties.code_circo})
-        .on("mouseover", mouseover("code_circo"))
-        .on("mouseout", mouseout("code_circo"));
+        .on("mouseover", fade(.2))
+        .on("mouseout", fade(1))
+        .on("dblclick", function(_){window.location = "delegations.html#"+_.properties.name_1});
     
     features
         .append("svg:title")
@@ -124,14 +125,14 @@ function updateInfoBox(json) {
         .sort(function(a,b) {
 	    return parseInt(a.properties.code_circo) - parseInt(b.properties.code_circo);
 	} )
-	.on("mouseover", mouseover("code_circo"))
-	.on("mouseout", mouseout("code_circo"));
+	.on("mouseover", fade(.2))
+	.on("mouseout", fade(1));
 
     var td = tr.selectAll("td")
 	.data(function(d) { return [d.properties.code_circo, d.properties.name_circo, d.properties.name_1]; })
 	.enter().append("td")
-	.text(function(d,i) {return d; })
-        .on("click", function(d,i){ if (i==2) window.location = "delegations.html#"+d});
+	.text(function(d,i) {return d; });
+        //.on("click", function(d,i){ if (i==2) window.location = "delegations.html#"+d});
 }
 
 function quantize(d) {
