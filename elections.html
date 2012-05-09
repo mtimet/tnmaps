@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TNAC Election Results</title>  
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" type="text/css"/>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-responsive.css" type="text/css"/>
+    <link rel="stylesheet" href="lib/colorbrewer/colorbrewer.css" type="text/css"/>
+    <link rel="stylesheet" href="lib/app/css/app.css" type="text/css"/>
+    <link rel="stylesheet" href="lib/app/css/elections.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+	  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+	  <a class="brand" href="./index.html">TNAC 2012 Election Results</a>
+	  <div class="nav-collapse">
+	    <ul class="nav">
+	    
+	      <li>
+	        <a class="brand" href="./index.html">Overview</a>
+	      </li>
+	      <li>
+	        <a class="brand" href="./delegations.html">Delegations</a>
+	      </li>
+	      <li>
+	        <a class="brand" href="./governorates.html">Governorates</a>
+	      </li>
+
+	      <li class="active">
+	        <a class="brand" href="./elections.html">Elections</a>
+	      </li>
+	      
+	    </ul>
+	  </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-fluid">
+      <section id="main">
+       
+        <div class="row-fluid">
+	  <div id="map-circonscriptions" class="span4 hero-unit">
+	  </div>
+	  <div id="info-box" class="span6">
+	    <table id="info-table" class="table table-condensed">
+	      <thead>
+		<tr>
+		  <th>ISIE Code</th>
+		  <th>Arabic Name</th>
+		  <th>French Name</th>
+		</tr>
+		</thead>
+	      <tbody>
+	      </tbody>
+	    </table>
+	  </div>
+	</div>
+	  
+        	    
+      </section>
+      <hr>
+      
+  
+    </div>
+    
+    <script type="text/javascript" src="lib/d3/d3.v2.min.js"></script>
+    <script type="text/javascript" src="lib/queue/queue.min.js"></script>
+    <script type="text/javascript" src="lib/crossfilter/crossfilter.min.js"></script>
+    <script type="text/javascript" src="lib/jquery/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/app/js/app.js"></script>
+    <script type="text/javascript" src="lib/app/js/elections.js"></script>
+
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31378757-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+   </script>
+
+  </body>
+</html>
